@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hindi (hi). Driver-facing strings translated; remaining keys fall back to the English
+     default in values/strings.xml. Structured for full localization. -->
+<resources>
+    <string name="login_subtitle">डिवाइस पर वाहन निरीक्षण</string>
+    <string name="driver_name">ड्राइवर नाम</string>
+    <string name="pin">पिन</string>
+    <string name="login">लॉग इन</string>
+
+    <string name="select_vehicle">वाहन चुनें</string>
+    <string name="add_vehicle">वाहन जोड़ें</string>
+    <string name="history">इतिहास</string>
+    <string name="start_inspection">निरीक्षण शुरू करें</string>
+    <string name="incident_capture">घटना कैप्चर</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="logout">लॉग आउट</string>
+
+    <string name="back">वापस</string>
+    <string name="capture">कैप्चर</string>
+    <string name="capturing">कैप्चर हो रहा है…</string>
+    <string name="q_too_blurry">धुंधला — स्थिर रखें</string>
+    <string name="q_overexposed">बहुत चमकीला — चमक कम करें</string>
+    <string name="q_underexposed">बहुत अंधेरा — रोशनी बढ़ाएँ</string>
+    <string name="q_no_vehicle">फ्रेम में वाहन नहीं — रूपरेखा पर आएँ</string>
+    <string name="q_misframed">रूपरेखा से मिलाएँ</string>
+
+    <string name="review_and_sign">समीक्षा करें और हस्ताक्षर करें</string>
+    <string name="new_damage">नया नुकसान</string>
+    <string name="pre_existing">पहले से मौजूद</string>
+    <string name="resolved">हल किया गया</string>
+    <string name="cleanliness">सफाई</string>
+    <string name="driver_signature">ड्राइवर हस्ताक्षर</string>
+    <string name="finalize_and_sign">अंतिम रूप दें और हस्ताक्षर करें</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="dispute">विवाद</string>
+    <string name="note">टिप्पणी</string>
+
+    <string name="vehicle_history">वाहन इतिहास</string>
+    <string name="verify_chain">चेन सत्यापित करें</string>
+    <string name="damage_ledger">क्षति बहीखाता</string>
+
+    <string name="scan_plate">नंबर प्लेट स्कैन</string>
+    <string name="captured">कैप्चर हो गया</string>
+    <string name="framing">फ़्रेमिंग</string>
+    <string name="ready">तैयार</string>
+    <string name="g_move_left">बाएँ जाएँ</string>
+    <string name="g_move_right">दाएँ जाएँ</string>
+    <string name="g_move_closer">पास आएँ</string>
+    <string name="g_steady">स्थिर रखें</string>
+    <string name="g_good">फ़्रेम ठीक — कैप्चर करें</string>
+    <string name="g_dark">बहुत अंधेरा</string>
+    <string name="analytics">विश्लेषण</string>
+    <string name="inspect">निरीक्षण</string>
+    <string name="search">खोजें</string>
+    <string name="biometric_login">फ़िंगरप्रिंट से अनलॉक करें</string>
+</resources>

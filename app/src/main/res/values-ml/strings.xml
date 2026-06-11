@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Malayalam (ml). Driver-facing strings translated; remaining keys fall back to the English
+     default in values/strings.xml. Structured for full localization. -->
+<resources>
+    <string name="login_subtitle">ഉപകരണത്തിൽ തന്നെ വാഹന പരിശോധന</string>
+    <string name="driver_name">ഡ്രൈവർ പേര്</string>
+    <string name="pin">പിൻ</string>
+    <string name="login">ലോഗിൻ</string>
+
+    <string name="select_vehicle">വാഹനം തിരഞ്ഞെടുക്കുക</string>
+    <string name="add_vehicle">വാഹനം ചേർക്കുക</string>
+    <string name="history">ചരിത്രം</string>
+    <string name="start_inspection">പരിശോധന തുടങ്ങുക</string>
+    <string name="incident_capture">സംഭവ ക്യാപ്ചർ</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="logout">ലോഗൗട്ട്</string>
+
+    <string name="back">തിരികെ</string>
+    <string name="capture">ക്യാപ്ചർ</string>
+    <string name="capturing">ക്യാപ്ചർ ചെയ്യുന്നു…</string>
+    <string name="q_too_blurry">വ്യക്തമല്ല — സ്ഥിരമായി പിടിക്കുക</string>
+    <string name="q_overexposed">വളരെ പ്രകാശം — തിളക്കം കുറയ്ക്കുക</string>
+    <string name="q_underexposed">വളരെ ഇരുട്ട് — വെളിച്ചം കൂട്ടുക</string>
+    <string name="q_no_vehicle">ഫ്രെയിമിൽ വാഹനമില്ല — രൂപരേഖയിലേക്ക് നീങ്ങുക</string>
+    <string name="q_misframed">രൂപരേഖയ്ക്ക് ഒത്ത് നീങ്ങുക</string>
+
+    <string name="review_and_sign">പരിശോധിച്ച് ഒപ്പിടുക</string>
+    <string name="new_damage">പുതിയ കേടുപാട്</string>
+    <string name="pre_existing">നിലവിലുള്ളത്</string>
+    <string name="resolved">പരിഹരിച്ചു</string>
+    <string name="cleanliness">വൃത്തി</string>
+    <string name="driver_signature">ഡ്രൈവർ ഒപ്പ്</string>
+    <string name="finalize_and_sign">പൂർത്തിയാക്കി ഒപ്പിടുക</string>
+    <string name="confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="dispute">തർക്കം</string>
+    <string name="note">കുറിപ്പ്</string>
+
+    <string name="vehicle_history">വാഹന ചരിത്രം</string>
+    <string name="verify_chain">ചെയിൻ പരിശോധിക്കുക</string>
+    <string name="damage_ledger">കേടുപാട് ലെഡ്ജർ</string>
+
+    <string name="scan_plate">നമ്പർ പ്ലേറ്റ് സ്കാൻ</string>
+    <string name="captured">പകർത്തി</string>
+    <string name="framing">ഫ്രെയിമിംഗ്</string>
+    <string name="ready">തയ്യാർ</string>
+    <string name="g_move_left">ഇടത്തേക്ക് നീങ്ങുക</string>
+    <string name="g_move_right">വലത്തേക്ക് നീങ്ങുക</string>
+    <string name="g_move_closer">അടുത്തേക്ക് വരൂ</string>
+    <string name="g_steady">സ്ഥിരമായി പിടിക്കുക</string>
+    <string name="g_good">ഫ്രെയിം ശരി — പകർത്തുക</string>
+    <string name="g_dark">വളരെ ഇരുട്ട്</string>
+    <string name="analytics">വിശകലനം</string>
+    <string name="inspect">പരിശോധന</string>
+    <string name="search">തിരയുക</string>
+    <string name="biometric_login">വിരലടയാളം ഉപയോഗിച്ച് തുറക്കുക</string>
+</resources>

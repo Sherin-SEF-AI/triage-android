@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "note": "Models with a 'url' are auto-downloaded by the app on start (provisioning, outside the analysis path). A real conforming vehicle/object detector is provisioned and activates the framing/vehicle-detection path. The fleet-specific heads (damage/tyre/lamp/cleanliness) have no public trained model, so their 'url' is empty and they run the classical-CV fallback until a fine-tuned model URL is added here — no code change needed. A non-conforming model that fails to load reverts the head to classical automatically.",
+  "models": [
+    {
+      "head": "DAMAGE",
+      "modelId": "damage-seg",
+      "version": "0.0.0",
+      "file": "damage_seg.tflite",
+      "present": false,
+      "inputWidth": 320,
+      "inputHeight": 320,
+      "labels": ["scratch", "dent", "crack", "broken-part", "missing-part", "paint-peel"],
+      "task": "SEGMENTATION",
+      "url": "",
+      "sha256": ""
+    },
+    {
+      "head": "TYRE",
+      "modelId": "tyre-cls",
+      "version": "0.0.0",
+      "file": "tyre_cls.tflite",
+      "present": false,
+      "inputWidth": 224,
+      "inputHeight": 224,
+      "labels": ["ok", "worn", "damaged", "flat-low"],
+      "task": "CLASSIFICATION",
+      "url": "",
+      "sha256": ""
+    },
+    {
+      "head": "LAMP",
+      "modelId": "lamp-det",
+      "version": "0.0.0",
+      "file": "lamp_det.tflite",
+      "present": false,
+      "inputWidth": 320,
+      "inputHeight": 320,
+      "labels": ["intact", "cracked", "fogged", "missing"],
+      "task": "DETECTION",
+      "url": "",
+      "sha256": ""
+    },
+    {
+      "head": "CLEANLINESS_EXT",
+      "modelId": "clean-ext-cls",
+      "version": "0.0.0",
+      "file": "clean_ext_cls.tflite",
+      "present": false,
+      "inputWidth": 224,
+      "inputHeight": 224,
+      "labels": ["clean", "dusty", "dirty", "very-dirty"],
+      "task": "CLASSIFICATION",
+      "url": "",
+      "sha256": ""
+    },
+    {
+      "head": "CLEANLINESS_INT",
+      "modelId": "clean-int-det",
+      "version": "0.0.0",
+      "file": "clean_int_det.tflite",
+      "present": false,
+      "inputWidth": 320,
+      "inputHeight": 320,
+      "labels": ["litter", "stain", "clutter"],
+      "task": "DETECTION",
+      "url": "",
+      "sha256": ""
+    },
+    {
+      "head": "VEHICLE_DETECTOR",
+      "modelId": "ssd-mobilenet-v1-coco",
+      "version": "1.0.0",
+      "file": "vehicle_det.tflite",
+      "present": false,
+      "inputWidth": 300,
+      "inputHeight": 300,
+      "task": "DETECTION",
+      "url": "https://raw.githubusercontent.com/google-coral/test_data/master/ssd_mobilenet_v1_coco_quant_postprocess.tflite",
+      "sha256": "020d9f0a3e8b84e13cb1dbe70a756ef4dd5884bfc50e77f43c7bac84e791dd9d",
+      "labels": ["person","bicycle","car","motorcycle","airplane","bus","train","truck","boat","traffic light","fire hydrant","n/a","stop sign","parking meter","bench","bird","cat","dog","horse","sheep","cow","elephant","bear","zebra","giraffe","n/a","backpack","umbrella","n/a","n/a","handbag","tie","suitcase","frisbee","skis","snowboard","sports ball","kite","baseball bat","baseball glove","skateboard","surfboard","tennis racket","bottle","n/a","wine glass","cup","fork","knife","spoon","bowl","banana","apple","sandwich","orange","broccoli","carrot","hot dog","pizza","donut","cake","chair","couch","potted plant","bed","n/a","dining table","n/a","n/a","toilet","n/a","tv","laptop","mouse","remote","keyboard","cell phone","microwave","oven","toaster","sink","refrigerator","n/a","book","clock","vase","scissors","teddy bear","hair drier","toothbrush"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base activity theme. The actual UI is Jetpack Compose (TriageTheme); this just provides a
+         dark, no-action-bar window matching the matte near-black design. -->
+    <style name="Theme.Triage" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/surface_black</item>
+        <item name="android:statusBarColor">@color/surface_black</item>
+        <item name="android:navigationBarColor">@color/surface_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TRIAGE</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">On-device fleet inspection</string>
+    <string name="driver_name">Driver name</string>
+    <string name="pin">PIN</string>
+    <string name="login">Log in</string>
+    <string name="register_and_login">Register &amp; log in</string>
+    <string name="have_account">I already have an account</string>
+    <string name="new_driver">New driver? Register</string>
+    <string name="default_supervisor_hint">First run seeds supervisor \"Supervisor\" / PIN 1234 — change it in Settings.</string>
+
+    <!-- Home -->
+    <string name="fleet">Fleet</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log out</string>
+    <string name="resume_in_progress">Resume in progress</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="select_vehicle">Select vehicle</string>
+    <string name="add_vehicle">Add vehicle</string>
+    <string name="history">History</string>
+    <string name="start_inspection">Start inspection</string>
+    <string name="incident_capture">Incident capture</string>
+    <string name="registration">Registration</string>
+    <string name="fleet_label">Fleet label</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Capture -->
+    <string name="back">Back</string>
+    <string name="capture">Capture</string>
+    <string name="capturing">Capturing…</string>
+    <string name="finish_early">Finish early →</string>
+    <string name="q_too_blurry">Too blurry — hold steady</string>
+    <string name="q_overexposed">Too bright — reduce glare</string>
+    <string name="q_underexposed">Too dark — add light</string>
+    <string name="q_no_vehicle">No vehicle in frame — step to outline</string>
+    <string name="q_misframed">Step to match the outline</string>
+    <string name="q_too_dark">Too dark for interior</string>
+    <string name="q_too_bright">Overexposed</string>
+
+    <!-- Review &amp; sign -->
+    <string name="review_and_sign">Review &amp; sign</string>
+    <string name="new_damage">NEW damage</string>
+    <string name="review_required">Review required</string>
+    <string name="first_record">First record</string>
+    <string name="pre_existing">Pre-existing</string>
+    <string name="resolved">Resolved</string>
+    <string name="cleanliness">Cleanliness</string>
+    <string name="low_confidence_baseline">* low-confidence — enroll a clean baseline for relative scoring</string>
+    <string name="low_confidence">Low confidence</string>
+    <string name="add_manual_finding">Add manual finding</string>
+    <string name="driver_signature">Driver signature</string>
+    <string name="clear_signature">Clear signature</string>
+    <string name="finalize_and_sign">Finalize &amp; sign</string>
+    <string name="finalizing">Finalizing…</string>
+    <string name="attribution_title">Responsible-shift attribution</string>
+    <string name="attribution_body">Appeared between previous shift (driver %1$s) and this shift (driver %2$s).</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="dispute">Dispute</string>
+    <string name="disputed">Disputed</string>
+    <string name="note">Note</string>
+    <string name="station">Station</string>
+
+    <!-- History -->
+    <string name="vehicle_history">Vehicle history</string>
+    <string name="chain_integrity">Hash-chain integrity</string>
+    <string name="chain_valid">VALID — chain intact</string>
+    <string name="chain_broken">BROKEN — %1$d record(s) altered</string>
+    <string name="chain_not_checked">Not yet verified</string>
+    <string name="verify_chain">Verify chain</string>
+    <string name="verifying">Verifying…</string>
+    <string name="cleanliness_trend">Cleanliness trend</string>
+    <string name="damage_ledger">Damage ledger</string>
+    <string name="first_seen">First seen</string>
+    <string name="shifts_present">Shifts present</string>
+    <string name="lifecycle">Lifecycle</string>
+    <string name="open">Open</string>
+    <string name="inspections">Inspections</string>
+    <string name="no_data">No data yet</string>
+
+    <!-- Fleet -->
+    <string name="supervisor_access">Supervisor access</string>
+    <string name="enter_supervisor_pin">Enter supervisor PIN to continue</string>
+    <string name="invalid_pin">Invalid PIN</string>
+    <string name="unlock">Unlock</string>
+    <string name="cleanliness_league">Cleanliness league</string>
+    <string name="open_new_damage">Open NEW damages</string>
+    <string name="enroll_baseline">Enroll baseline</string>
+    <string name="dispute_queue">Dispute queue</string>
+    <string name="review">Review</string>
+    <string name="model_registry">Model registry</string>
+    <string name="classical_cv">classical-cv</string>
+    <string name="data_export">Data export</string>
+    <string name="export_hint">Export finalized records as a ZIP of photos + findings.jsonl (a labeled dataset). Driver confirm/dispute are the human labels.</string>
+    <string name="export_bulk">Export all finalized</string>
+
+    <!-- Settings -->
+    <string name="station_config">Station config (vehicle profile)</string>
+    <string name="active">active</string>
+    <string name="select">Select</string>
+    <string name="retention">Retention</string>
+    <string name="photo_storage">Photo storage</string>
+    <string name="retention_cap">Retention cap</string>
+    <string name="low_storage_warning">Low storage — free space before a walkaround</string>
+    <string name="enforce_now">Enforce retention now</string>
+    <string name="sync_optional">Sync (optional, default OFF)</string>
+    <string name="sync_enabled">Sync enabled</string>
+    <string name="sync_scope_note">Sync is the only network feature. Analysis is 100% on-device and never depends on it.</string>
+    <string name="endpoint_https">HTTPS endpoint</string>
+    <string name="token">Bearer token</string>
+    <string name="wifi_only">Wi-Fi only</string>
+    <string name="save_sync_config">Save sync config</string>
+    <string name="thresholds">Thresholds</string>
+    <string name="registration_confidence">Registration confidence (inlier ratio)</string>
+    <string name="severity_threshold">Severity threshold</string>
+    <string name="sharpness_min">Sharpness min (Laplacian var)</string>
+    <string name="exposure_clip_max">Exposure clip max</string>
+    <string name="framing_min">Framing min (edge density)</string>
+    <string name="save_thresholds">Save thresholds</string>
+    <string name="role_pins">Role PINs</string>
+    <string name="change_my_pin">Change my PIN</string>
+    <string name="new_pin">New PIN</string>
+    <string name="update_pin">Update PIN</string>
+    <string name="language">Language</string>
+    <string name="language_note">Driver-facing text is localized (English, Malayalam, Hindi). System language is followed by default.</string>
+    <string name="local_scope_statement">100% local processing — all damage, tyre, lamp and cleanliness analysis runs on-device. The app produces a complete inspection in airplane mode.</string>
+
+    <!-- QR scan -->
+    <string name="scan_qr">Scan QR</string>
+    <string name="qr_point_camera">Point the camera at the dashboard QR tag</string>
+    <string name="close">Close</string>
+
+    <!-- Review extras -->
+    <string name="draw_region">Drag on the photo to mark the region</string>
+    <string name="previous_shift">Previous shift</string>
+    <string name="current_shot">Current</string>
+    <string name="no_previous_photo">No previous photo for this station</string>
+    <string name="share_pdf">Share PDF</string>
+    <string name="share_zip">Share ZIP</string>
+    <string name="generating">Generating…</string>
+    <string name="dispute_add_photo">Attach photo</string>
+
+    <!-- Model registry -->
+    <string name="install_model">Install .tflite</string>
+    <string name="model_installed">Installed — using model</string>
+    <string name="uninstall_model">Remove</string>
+    <string name="download_now">Download now</string>
+    <string name="model_downloading">Downloading…</string>
+    <string name="model_download_failed">Download failed — using classical</string>
+    <string name="model_no_public">No public model — classical CV</string>
+    <string name="auto_download_models">Auto-download models</string>
+    <string name="auto_download_note">Fetches the vehicle detector on launch (provisioning only). Analysis itself stays 100% on-device.</string>
+
+    <!-- Capture -->
+    <string name="lamp_capture_hint">If dark: switch on headlamps / indicators before capturing</string>
+    <string name="flag_issue">Flag issue here</string>
+
+    <!-- Smart capture -->
+    <string name="scan_plate">Scan plate</string>
+    <string name="plate_point_camera">Point the camera at the number plate</string>
+    <string name="framing">Framing</string>
+    <string name="ready">READY</string>
+    <string name="g_move_left">Step left</string>
+    <string name="g_move_right">Step right</string>
+    <string name="g_move_closer">Move closer</string>
+    <string name="g_steady">Hold steady</string>
+    <string name="g_good">Framing good — capture</string>
+    <string name="g_dark">Too dark</string>
+    <string name="g_blurry">Hold steady — focusing</string>
+    <string name="captured">Captured</string>
+    <string name="smart_capture">Smart capture</string>
+    <string name="auto_capture">Auto-capture when framed</string>
+    <string name="voice_guidance">Voice guidance</string>
+    <string name="haptics">Haptic feedback</string>
+    <string name="redact_plates">Redact number plates in exports</string>
+
+    <!-- Analytics / access -->
+    <string name="analytics">Analytics</string>
+    <string name="inspect">Inspect</string>
+    <string name="driver_scorecards">Driver scorecards</string>
+    <string name="damage_rate">Damage rate</string>
+    <string name="fleet_kpis">Fleet KPIs</string>
+    <string name="search">Search</string>
+    <string name="biometric_login">Unlock with fingerprint</string>
+    <string name="enable_biometric">Enable fingerprint unlock</string>
+    <string name="shift_reminders">Shift reminders</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+    <string name="verify_record_qr">Record QR (scan to verify)</string>
+    <string name="no_vehicles">No vehicles yet — add or scan one</string>
+    <string name="no_inspections">No inspections yet</string>
+    <string name="analyzing">Analyzing…</string>
+</resources>
