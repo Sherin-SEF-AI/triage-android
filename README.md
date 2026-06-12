@@ -2,6 +2,8 @@
 
 **Turn every driver's phone into a tamper-proof vehicle inspector. 100 percent on-device.**
 
+EXPERIMENTAL APPLICATION
+
 TRIAGE is a driver-side vehicle-inspection app for commercial EV fleets (Tata Tigor and Xpres-T
 sedans). At shift start and shift end the driver runs a guided photo walkaround. The phone does all
 the analysis on-device (exterior damage, tyres, lamps, interior and exterior cleanliness), then
